@@ -93,7 +93,7 @@ main .boubles .b2 {
     color: rgb(var(--accent));
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .opening {
         flex-direction: column !important;
     }
