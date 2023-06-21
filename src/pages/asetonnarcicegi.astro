@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Opening from '../components/Opening.astro';
+import '../sources/style.css';
+import OutherOpening from '../components/OutherOpening.astro';
+---
+
+<Layout title="Yağlar - Cosmetica">
+	
+	<main>
+		<OutherOpening link="https://www.cosmetica.com.tr/cosmetica-aseton-nar-cicegi-nemlendirici-besleyici-etkili-100-ml.html"/>
+		<Opening
+			source="https://img-cosmetica.mncdn.com/UPLOAD/URUNLER/thumb/226553_1_medium.jpg"
+			fs="%100 Saf 20 mL"
+			ls="Nar Çiçeği Aseton"
+
+			tarifText="<i>İçerik belirtilmemiş.</i>"
+			faydalarText="<i>İçerik belirtilmemiş.</i>"
+			kullanimText='İhtiyacınız kadar bir miktar asetonu pamuk üzerine dökün. Ojeli tırnağın üzerini ovalayarak boyayı çıkarın.'
+			uyariText='<ul><li>Harici kullanım içindir, içilmez, yutulmaz. Çocuklardan uzak tutunuz. Göz ile temasından kaçınınız. Temas halinde bol su ile yıkayınız. Güneş ışığından uzakta, serin bir yerde, ağzı sıkıca kapalı olarak muhafaza ediniz. Isıdan, kıvılcımdan, alevden, sıcak yüzeylerden uzak tutunuz. Cilalı sentetik kumaş, deri, ahşap ve boyalı alanlara zarar verebilir. Başka kimyasallarla karıştırılmamalıdır.</li></ul>'
+		/>
+		<div class="boubles">
+			<div class="b1"></div>
+			<div class="b2"></div>
+		</div>
+	</main>
+</Layout>
+
+<!--"npm run dev" to start -->

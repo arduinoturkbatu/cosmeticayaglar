@@ -26,10 +26,11 @@ const { source, fs, ls, tarifText, faydalarText, kullanimText, uyariText } = Ast
 		<div class="text">{kullanimText}</div>
 		<span class="section-title">Uyarılar</span>
 		<div class="text">{uyariText}</div>
+		<slot />
 	</div>
 	
 </div>
-<style>
+<style is:global>
 
 	.opening {
 		background: #ffffffab;

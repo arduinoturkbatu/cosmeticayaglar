@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Opening from '../components/Opening.astro';
+import '../sources/style.css';
+import OutherOpening from '../components/OutherOpening.astro';
+---
+
+<Layout title="Yağlar - Cosmetica">
+	
+	<main>
+		<OutherOpening link="https://www.cosmetica.com.tr/cosmetica-vazelin-100-ml.html"/>
+		<Opening
+			source="https://img-cosmetica.mncdn.com/UPLOAD/URUNLER/thumb/226450_1_medium.jpg"
+			fs="%100 Saf 100 mL"
+			ls="Vazelin"
+
+			tarifText="%100 Petrolatum'dan yapılmıştır."
+			faydalarText="<b>''Kuru ciltler için katkısız, saf vazelin.''</b> Cosmetica Vazelin, cildinize yoğun nem vererek yıpranmış cildinizin onarılmasına yardımcı olur. Dış etkenlere karşı korur"
+			kullanimText='<i>İçerik belirtilmemiş.</i>'
+			uyariText='Haricen kullanılır. Çocukların ulaşabileceği yerlerden uzak tutunuz. Göz ile temasından sakınınız. Göz ile teması halinde bol su ile yıkayınız. Kuru ve serin yerlerde saklayınız.'
+		/>
+		<div class="boubles">
+			<div class="b1"></div>
+			<div class="b2"></div>
+		</div>
+	</main>
+</Layout>
+
+<!--"npm run dev" to start -->

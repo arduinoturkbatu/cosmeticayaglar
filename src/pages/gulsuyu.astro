@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Opening from '../components/Opening.astro';
+import '../sources/style.css';
+import OutherOpening from '../components/OutherOpening.astro';
+---
+
+<Layout title="Yağlar - Cosmetica">
+	
+	<main>
+		<OutherOpening link="https://www.cosmetica.com.tr/cosmetica-gul-suyu-200-ml.html"/>
+		<Opening
+			source="https://img-cosmetica.mncdn.com/UPLOAD/URUNLER/thumb/226218_1_medium.jpg"
+			fs="%100 Saf 20 mL"
+			ls="Gül Suyu"
+
+			tarifText="Rose Damascena ismi ile de bilinen gül çiçeklerimizi özenle sizin için topladık ve bakır imbiklerle distilasyon işlemi yaparak hem gülün yağını, hem de gül suyumuzu (hidrolat) elde ettik. Cosmetica gül suyunu cildinizin günlük bakımı, makyajınızı temizlemek ve cildinizi nemlendirmek için kullanabilirsiniz. Cildinizin canlı ve parlak bir görünüme kavuşmasına yardımcı olur."
+			faydalarText="<i>İçerik belirtilmemiş.</i>"
+			kullanimText='Makyaj temizleme pedinize ya da pamuğunuza cildinizi temizlemeye ve nemlendirmeye yetecek miktarda ürünü sıkınız. Cildinize direkt olarak uygulayınız. Durulamanıza gerek yoktur.'
+			uyariText='<div class="problema">Çocukların ulaşamayacağı yerde muhafaza ediniz. Harici kullanım için uygundur. Göz ile temasından kaçınınız. Serin ve ışık görmeyen yerlerde saklayınız. Alkol ve renklendirici içermez.</div>'
+		>
+			<h4 style="margin:0;padding:0;">Ek Açıklama:</h4>
+			<span class="section-title">İçindekiler</span>
+			<div class="text">Aqua, Rosa Damascena Flower Water, Parfum, Sodium Benzoate, Potassium Sorbate, Citric Acid, Polysorbate 20, Citronellol, Geraniol, Hexyl Cinnamal, Linalool, Alpha-Isomethyl Ionone, D-Limonene, Eugenol.</div>
+		</Opening>
+		<div class="boubles">
+			<div class="b1"></div>
+			<div class="b2"></div>
+		</div>
+	</main>
+</Layout>
+
+<!--"npm run dev" to start -->
